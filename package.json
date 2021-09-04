@@ -1,6 +1,6 @@
 {
   "name": "sample-mithril-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "a simple API server to test sample-mithril-app with",
   "main": "index.js",
   "scripts": {
