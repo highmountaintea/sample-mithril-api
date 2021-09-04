@@ -1,12 +1,15 @@
 {
   "name": "sample-mithril-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a simple API server to test sample-mithril-app with",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "postversion": "git push --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sample-mithril-api": "./index.js"
   },
   "repository": {
     "type": "git",
